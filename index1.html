@@ -1,0 +1,45 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator - By Yash</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    <div class="calcy">
+        <input  class="result" type="text" placeholder="0" id="box">
+        <div>
+            <button onclick="clearResult()">AC</button>
+            <button onclick="appendToArea('%')">%</button>
+            <button onclick="clearLast()">DEL</button>
+            <button onclick="appendToArea('/')" class="button">/</button>
+        </div>
+        <div>
+            <button onclick="appendToArea('7')">7</button>
+            <button onclick="appendToArea('8')">8</button>
+            <button onclick="appendToArea('9')">9</button>
+            <button  onclick="appendToArea('*')" class="button">x</button>
+        </div>
+        <div>
+            <button onclick="appendToArea('4')">4</button>
+            <button onclick="appendToArea('5')">5</button>
+            <button onclick="appendToArea('6')">6</button>
+            <button onclick="appendToArea('-')" class="button">-</button>
+        </div>
+        <div>
+            <button onclick="appendToArea('1')">1</button>
+            <button onclick="appendToArea('2')">2</button>
+            <button onclick="appendToArea('3')">3</button>
+            <button onclick="appendToArea('+')" class="button">+</button>
+        </div>
+        <div>
+            <button onclick="appendToArea('00')">00</button>
+            <button onclick="appendToArea('0')">0</button>
+            <button onclick="appendToArea('.')">.</button>
+            <button  class="button">=</button>
+        </div>
+    </div>
+
+    <script src="script2.js"></script>
+</body>
+</html>

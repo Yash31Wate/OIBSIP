@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&display=swap');
+
+*{
+    font-family: 'Nunito Sans', sans-serif;
+    margin: 0;
+    padding:0; 
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to top,#ffd280,#ffa280);
+}
+.calcy{
+    border: 0.1px solid rgb(91, 90, 90);
+    padding: 25px;
+    border-radius: 10px;
+    background: transparent;
+    box-shadow:0px 5px 15px rgb(250, 222, 171,1);
+}
+button{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 5px;
+    background: transparent;
+    box-shadow: -1px 2px 5px rgb(250, 222, 171,1);
+    cursor: pointer;
+    border: none;
+}
+input{
+    width: 96%;
+    height: 45px;
+    border-radius: 5px;
+    background-color: antiquewhite;
+    padding: 10px;
+    margin: 5px;
+    border: none;
+    box-shadow: -1px 2px 5px rgb(252, 200, 172,0.9);
+    
+}
+input::placeholder{
+    text-align: right;
+}
+.button{
+    background-color: #ee4466;
+    box-shadow: -1px 2px 5px #ccccff;
+}
